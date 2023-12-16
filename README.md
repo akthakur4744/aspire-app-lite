@@ -31,5 +31,6 @@ npm install
 npm start
 ```
 The application server will be running at http://localhost:3000 on the local machine.
+The code is deployed on web at https://akthakur4744.github.io/fe-payment-lite/ and can be directly accessed by opening the link.
 
 
