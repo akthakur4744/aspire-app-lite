@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/fe-payment-lite/static/css/main.25b6f833.css",
+    "main.js": "/fe-payment-lite/static/js/main.9e8857ec.js",
+    "static/js/787.d4aba7ab.chunk.js": "/fe-payment-lite/static/js/787.d4aba7ab.chunk.js",
+    "static/media/Logo.svg": "/fe-payment-lite/static/media/Logo.eb6d9bfca26fb0838a4cf7bf8dc93c04.svg",
+    "static/media/Set_spend_limit.svg": "/fe-payment-lite/static/media/Set_spend_limit.2fcd3ac92d2bf8d05c3502f507fc04ea.svg",
+    "static/media/slick.svg": "/fe-payment-lite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/fe-payment-lite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/fe-payment-lite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/transactions.svg": "/fe-payment-lite/static/media/transactions.ee07a1b54475fadfb52f54fb177b8097.svg",
+    "static/media/Visa_Logo.svg": "/fe-payment-lite/static/media/Visa_Logo.4d8e68b6266c2c97fb1be149942910bf.svg",
+    "static/media/card_detail.svg": "/fe-payment-lite/static/media/card_detail.0104285d070280af2409797b3043e5f4.svg",
+    "static/media/slick.woff": "/fe-payment-lite/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/Account.svg": "/fe-payment-lite/static/media/Account.7323a3ca3bdf78aa19759805acc7cd35.svg",
+    "static/media/Freeze_card.svg": "/fe-payment-lite/static/media/Freeze_card.06bd5e7f1ce2515b102ee909885c2536.svg",
+    "static/media/Replace_card.svg": "/fe-payment-lite/static/media/Replace_card.d14b399169b6c3aa7cfe66d185c8c99d.svg",
+    "static/media/Payments.svg": "/fe-payment-lite/static/media/Payments.3b8b4549db2b84867ce8e922b1bbe38c.svg",
+    "static/media/GPay.svg": "/fe-payment-lite/static/media/GPay.54764838d5b3a13389ee3ff9a6bb84c6.svg",
+    "static/media/header.svg": "/fe-payment-lite/static/media/header.32032391fd996da2defb1413db2ba3b3.svg",
+    "static/media/pay.svg": "/fe-payment-lite/static/media/pay.4486fd492f220ed6b066cb545a2c9eed.svg",
+    "static/media/megaphone.svg": "/fe-payment-lite/static/media/megaphone.fcf8bdf3280f45ff506e3f636e398b79.svg",
+    "static/media/flights.svg": "/fe-payment-lite/static/media/flights.b73ad47f0a8f4ba17804fba1ba30d3db.svg",
+    "static/media/Credit.svg": "/fe-payment-lite/static/media/Credit.f6547591c2df3dd74aa79fe931e0f5df.svg",
+    "index.html": "/fe-payment-lite/index.html",
+    "static/media/file-storage.svg": "/fe-payment-lite/static/media/file-storage.1ae4a8be282ba3363c6d576bf7d1aa8a.svg",
+    "static/media/business-and-finance.svg": "/fe-payment-lite/static/media/business-and-finance.6596a234193fe4f6f88bfcb8d2bfda3f.svg",
+    "static/media/Deactivate_card.svg": "/fe-payment-lite/static/media/Deactivate_card.cdcc853057ffd1bf5d8eed5dfb006742.svg",
+    "static/media/remove_red_eye-24px.svg": "/fe-payment-lite/static/media/remove_red_eye-24px.d5480cb992892db6a991169abf6d2e54.svg",
+    "static/media/box.svg": "/fe-payment-lite/static/media/box.65d4fc46dd7acbf97c30a9976277e7c4.svg",
+    "static/media/down-arrow.svg": "/fe-payment-lite/static/media/down-arrow.6120f65101a5c87261290d2d452dc806.svg",
+    "static/media/next.svg": "/fe-payment-lite/static/media/next.b0577e9154ef085853ac7b581a93dda5.svg",
+    "main.25b6f833.css.map": "/fe-payment-lite/static/css/main.25b6f833.css.map",
+    "main.9e8857ec.js.map": "/fe-payment-lite/static/js/main.9e8857ec.js.map",
+    "787.d4aba7ab.chunk.js.map": "/fe-payment-lite/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25b6f833.css",
+    "static/js/main.9e8857ec.js"
+  ]
+}
