@@ -30,6 +30,10 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
   const [isMasked, setIsMasked] = useState(false);
   const [cvvSectionText, setCvvSectionText] = useState("");
   const [cardNumber, setCardNumber] = useState("");
+  let showCardText = "Show card number";
+  if(!isMasked) {
+    showCardText = "Hide card number";
+  }
 
   React.useEffect(() => {
     let maskedCvvSectionText = `CVV : ${cvv}`;
@@ -79,7 +83,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
           <Typography
             style={{ color: "#01D167", display: "inline" }}
             level="body-xs"
-          >{`Show card number`}</Typography>
+          >{showCardText}</Typography>
         </div>
       )}
       <Card

@@ -1,4 +1,3 @@
-import Logo from "../assets/Logo.svg";
 import Visa_logo from "../assets/Visa_Logo.svg";
 
 export interface BankCardType {
@@ -14,7 +13,6 @@ export interface BankCardType {
 const getDefaultCards = (): BankCardType[] => {
   return [
     {
-      logo: Logo,
       name: "Mark Henry",
       number: "5412345678901234",
       validThru: "12/20",
@@ -22,7 +20,6 @@ const getDefaultCards = (): BankCardType[] => {
       networkTypeIcon: Visa_logo,
     },
     {
-      logo: Logo,
       name: "Akshay Kumar",
       number: "5412345674561234",
       validThru: "12/20",
@@ -31,7 +28,6 @@ const getDefaultCards = (): BankCardType[] => {
       isFrozen: true,
     },
     {
-      logo: Logo,
       name: "Lorium Ipsum",
       number: "5412345670001234",
       validThru: "12/20",
