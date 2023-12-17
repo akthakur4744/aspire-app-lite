@@ -47,6 +47,7 @@ export default function RecentTransactions() {
       {transactions.map((transaction, i) => (
         <React.Fragment>
           <Transaction
+            key={i+transaction.date}
             vendor={transaction.vendor}
             date={transaction.date}
             transactionAmount={transaction.transactionAmount}
