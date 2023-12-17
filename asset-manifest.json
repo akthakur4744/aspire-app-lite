@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aspire-app-lite/static/css/main.17cf6bbf.css",
-    "main.js": "/aspire-app-lite/static/js/main.2fd9206b.js",
-    "static/js/787.d4aba7ab.chunk.js": "/aspire-app-lite/static/js/787.d4aba7ab.chunk.js",
+    "main.js": "/aspire-app-lite/static/js/main.232acd3e.js",
+    "static/js/787.0915cb07.chunk.js": "/aspire-app-lite/static/js/787.0915cb07.chunk.js",
     "static/media/Logo.svg": "/aspire-app-lite/static/media/Logo.eb6d9bfca26fb0838a4cf7bf8dc93c04.svg",
     "static/media/Set_spend_limit.svg": "/aspire-app-lite/static/media/Set_spend_limit.2fcd3ac92d2bf8d05c3502f507fc04ea.svg",
     "static/media/slick.svg": "/aspire-app-lite/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -31,11 +31,11 @@
     "static/media/down-arrow.svg": "/aspire-app-lite/static/media/down-arrow.6120f65101a5c87261290d2d452dc806.svg",
     "static/media/next.svg": "/aspire-app-lite/static/media/next.b0577e9154ef085853ac7b581a93dda5.svg",
     "main.17cf6bbf.css.map": "/aspire-app-lite/static/css/main.17cf6bbf.css.map",
-    "main.2fd9206b.js.map": "/aspire-app-lite/static/js/main.2fd9206b.js.map",
-    "787.d4aba7ab.chunk.js.map": "/aspire-app-lite/static/js/787.d4aba7ab.chunk.js.map"
+    "main.232acd3e.js.map": "/aspire-app-lite/static/js/main.232acd3e.js.map",
+    "787.0915cb07.chunk.js.map": "/aspire-app-lite/static/js/787.0915cb07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17cf6bbf.css",
-    "static/js/main.2fd9206b.js"
+    "static/js/main.232acd3e.js"
   ]
 }
