@@ -36,7 +36,7 @@ function CardsList(cardsListProps: CardsListPropsType) {
     <div>
       <Slider {...settings} afterChange={afterChangeHandler}>
         {cardsList.map((item) => (
-          <BankCard {...item} />
+          <BankCard {...item} key={item.number} />
         ))}
       </Slider>
     </div>
