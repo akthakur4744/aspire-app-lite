@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container } from "@mui/joy";
+import { Card } from "@mui/joy";
 import AccordionGroup from "@mui/joy/AccordionGroup";
 import Accordion from "@mui/joy/Accordion";
 import AccordionDetails from "@mui/joy/AccordionDetails";
@@ -20,7 +20,14 @@ export default function CardDetailsSection(
 ) {
   const { activeCard } = CardDetailsSectionProps;
   return (
-    <Container sx={{ background: "#FFFFFF", padding: "24px" }}>
+    <Card
+      sx={{
+        background: "#FFFFFF",
+        padding: "24px",
+        borderRadius: "unset",
+        border: "none",
+      }}
+    >
       <AccordionGroup sx={{ maxWidth: 400, marginBottom: 8, gap: "24px" }}>
         <Accordion
           sx={{ border: "1px solid #F0F0F0", borderRadius: "10px" }}
@@ -70,6 +77,6 @@ export default function CardDetailsSection(
           </AccordionDetails>
         </Accordion>
       </AccordionGroup>
-    </Container>
+    </Card>
   );
 }
