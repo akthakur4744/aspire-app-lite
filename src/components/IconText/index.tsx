@@ -29,6 +29,7 @@ function IconText(iconTextProps: IconTextPropsType) {
           sx={{
             color: "#0C365A",
             textTransform: "none",
+            letterSpacing: "0",
           }}
           onClick={clickHandler}
         >

@@ -160,7 +160,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
         <div
           style={{
             position: "absolute",
-            bottom: 66,
+            bottom: 75,
             left: 10,
             color: "#fff",
             fontWeight: 600,
