@@ -99,7 +99,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
         style={{
           background: "#01D167",
           height: "160px",
-          opacity: isFrozen ? "0.5" : "1",
+          opacity: isFrozen ? "0.3" : "1",
           width: "100%",
           margin: 8,
         }}
@@ -121,6 +121,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
             textAlign={"left"}
             style={{ color: "white" }}
             level="body-sm"
+            marginTop={"12px"}
           >
             {cardNumber}
           </Typography>
@@ -145,7 +146,11 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
             </Typography>
           </div>
           <img
-            style={{ width: "min-content", marginLeft: "auto" }}
+            style={{
+              width: "min-content",
+              marginLeft: "auto",
+              marginTop: "24px",
+            }}
             src={networkTypeIcon}
             alt="network_type_icon"
           />
@@ -155,10 +160,10 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
         <div
           style={{
             position: "absolute",
-            bottom: 10,
+            bottom: 66,
             left: 10,
             color: "#fff",
-            fontWeight: 500,
+            fontWeight: 600,
             fontSize: 16,
             paddingRight: 10,
           }}
