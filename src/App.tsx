@@ -25,43 +25,57 @@ function App() {
     setActiveCard(card);
   };
 
+  const [activeTab, setActiveTab] = useState(0);
+
+  const updateActiveTab = (value: number) => {
+    setActiveTab(value);
+  };
+
   return (
     <div className="App">
-      <Container
-        sx={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100%",
-        }}
-      >
+      <CustomBottomNavigation />
+      <div className="left-pan">
         <Header
           updateModalState={updateModalState}
           cardsList={cardsList}
           updateCardsList={updateCardsList}
         />
-        <Tab
-          updateModalState={updateModalState}
-          cardsList={cardsList}
-          updateCardsList={updateCardsList}
-          updateActiveCard={updateActiveCard}
-        />
-        <BasicModal {...modalConfig} />
-      </Container>
-      <div
-        style={{
-          marginTop: "57vh",
-          zIndex: 1,
-        }}
-      >
-        <CardOptions
-          activeCard={activeCard}
-          updateCardsList={updateCardsList}
-          updateModalState={updateModalState}
-        />
-        <CardDetailsSection activeCard={activeCard}/>
+        <Container
+          sx={{
+            position: { xs: "fixed", md: "relative" },
+            top: { xs: 80, md: 0 },
+            left: 0,
+            width: "100%",
+          }}
+        >
+          <Tab
+            updateModalState={updateModalState}
+            cardsList={cardsList}
+            updateCardsList={updateCardsList}
+            updateActiveCard={updateActiveCard}
+            activeCard={activeCard}
+            updateActiveTab={updateActiveTab}
+          />
+          <BasicModal {...modalConfig} />
+        </Container>
+        {activeTab !== 1 && (
+          <div
+            style={{
+              marginTop: "57vh",
+              zIndex: 1,
+              width: "100vw",
+            }}
+            className="mobile-card-details"
+          >
+            <CardOptions
+              activeCard={activeCard}
+              updateCardsList={updateCardsList}
+              updateModalState={updateModalState}
+            />
+            <CardDetailsSection activeCard={activeCard} />
+          </div>
+        )}
       </div>
-      <CustomBottomNavigation />
     </div>
   );
 }
