@@ -31,7 +31,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
   const [cvvSectionText, setCvvSectionText] = useState("");
   const [cardNumber, setCardNumber] = useState("");
   let showCardText = "Show card number";
-  if(!isMasked) {
+  if (!isMasked) {
     showCardText = "Hide card number";
   }
 
@@ -50,10 +50,16 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
   }, [isMasked, cvv, cvvSectionText, number]);
 
   return (
-    <div style={{ 
-      width: "91vw", 
-    position: "relative", paddingTop: "30px",
-    display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div
+      style={{
+        width: "91vw",
+        position: "relative",
+        paddingTop: "30px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       {!isFrozen && (
         <div
           onClick={() => setIsMasked(!isMasked)}
@@ -83,7 +89,9 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
           <Typography
             style={{ color: "#01D167", display: "inline" }}
             level="body-xs"
-          >{showCardText}</Typography>
+          >
+            {showCardText}
+          </Typography>
         </div>
       )}
       <Card
@@ -92,8 +100,8 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
           background: "#01D167",
           height: "160px",
           opacity: isFrozen ? "0.5" : "1",
-          width: '100%',
-          margin: 8
+          width: "100%",
+          margin: 8,
         }}
       >
         <CardContent>
@@ -143,6 +151,21 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
           />
         </CardContent>
       </Card>
+      {isFrozen && (
+        <div
+          style={{
+            position: "absolute",
+            bottom: 10,
+            left: 10,
+            color: "#fff",
+            fontWeight: 500,
+            fontSize: 16,
+            paddingRight: 10,
+          }}
+        >
+          Your card is Frozen. Please unfreeze from options below to use it.
+        </div>
+      )}
     </div>
   );
 }
