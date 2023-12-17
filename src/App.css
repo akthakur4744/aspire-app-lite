@@ -27,6 +27,7 @@
 .slick-dots li.slick-active button:before {
   color: #01D167 !important;
 }
+
 .MuiAvatar-root.MuiAvatar-circular {
   background: aliceblue;
 }
@@ -38,19 +39,20 @@
   border-radius: 43% !important;
 }
 
-.transaction_card > img {
-  height: 7px!important;
-  width: 8px!important;
+.transaction_card>img {
+  height: 7px !important;
+  width: 8px !important;
 }
 
-img.MuiAvatar-img{
+img.MuiAvatar-img {
   width: 16px;
   height: 16px;
 }
 
-.slick-dots li{
+.slick-dots li {
   margin: 0;
 }
+
 .slick-dots li button:before {
   font-size: 16px !important;
   content: '' !important;
@@ -69,11 +71,114 @@ img.MuiAvatar-img{
   color: #61dafb;
 }
 
+
+.dt-card-details {
+  display: none;
+}
+
+.card-container {
+  width: 91vw;
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aspire_dweb_logo {
+  display: none;
+}
+
+.dt-card-options {
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #fff;
+  }
+
+  .left-pan {
+    flex: 1;
+    padding: 60px;
+    overflow-x: hidden;
+  }
+
+  .mobile-card-details {
+    display: none;
+  }
+
+  .dt-card-details {
+    display: block;
+    flex: 1;
+    margin-left: 23px;
+    margin-right: 46px;
+  }
+
+  .main-pan {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #FCFCFC;
+  }
+
+  .slider-container {
+    flex: 1;
+    overflow: hidden;
+    margin-right: 23px;
+    margin-right: 46px;
+  }
+
+  .card-container {
+    width: 414px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .aspire_dweb_logo {
+    display: block;
+  }
+
+  .dt-card-options {
+    display: block;
+  }
+
+  .frozen-text {
+    background-color: rgba(12, 54, 90, .5);
+    left: 8px !important;
+    bottom: 8px !important;
+    top: 39px;
+    right: 9px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
