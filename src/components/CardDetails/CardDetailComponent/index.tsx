@@ -28,7 +28,7 @@ export default function CardDetailComponent(
         >
            {attributeName !== "networkTypeIcon" && (
             <React.Fragment>
-              <Typography level="title-sm">{attributeName}</Typography>
+              <Typography textTransform={"capitalize"} level="title-sm">{attributeName}</Typography>
               <Typography level="body-sm" noWrap>
                 {attributeValue}
               </Typography>
