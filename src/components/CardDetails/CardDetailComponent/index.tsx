@@ -1,7 +1,6 @@
 import {
   ListItem,
   ListItemContent,
-  ListItemDecorator,
   Typography,
 } from "@mui/joy";
 import React from "react";

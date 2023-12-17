@@ -1,4 +1,4 @@
-# fe-payment-lite
+# aspire-app-lite
 
 A brief working model of the design: [Adobe XD Prototype](https://xd.adobe.com/view/80c753f2-db2f-4dfc-b6c2-ce39a4c787f0-d594)
 
@@ -12,7 +12,7 @@ A brief working model of the design: [Adobe XD Prototype](https://xd.adobe.com/v
 
 ## Info to Start the Application
 
-This React.js application, named "fe-payment-lite," is built with TypeScript, utilizing Material UI with Styled Components. It integrates React-Slick as a third-party package.
+This React.js application, named "aspire-app-lite," is built with TypeScript, utilizing Material UI with Styled Components. It integrates React-Slick as a third-party package.
 
 ### Features
 
@@ -33,6 +33,6 @@ npm start
 The application server will be running at http://localhost:3000 on the local machine.
 
 ### Hosted Link
-The code is deployed on web at https://akthakur4744.github.io/fe-payment-lite/ and can be directly accessed by opening the link.
+The code is deployed on web at https://akthakur4744.github.io/aspire-app-lite/ and can be directly accessed by opening the link.
 
 
