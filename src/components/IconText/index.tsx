@@ -11,7 +11,7 @@ interface IconTextPropsType {
 function IconText(iconTextProps: IconTextPropsType) {
   const { clickHandler, iconText, icon } = iconTextProps;
   return (
-    <div>
+    <div onClick={clickHandler}>
       <Button
         style={{ marginLeft: "auto", display: "flex", flexDirection: "column" }}
       >
@@ -31,7 +31,6 @@ function IconText(iconTextProps: IconTextPropsType) {
             textTransform: "none",
             letterSpacing: "0",
           }}
-          onClick={clickHandler}
         >
           {iconText}
         </Typography>
