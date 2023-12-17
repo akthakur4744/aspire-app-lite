@@ -24,7 +24,7 @@ function Header(headerProps: HeaderPropsType) {
   const resetModal = () => {
     updateModalState({} as BasicModalProps);
     addCardsHandler();
-  }
+  };
 
   useEffect(() => {
     updateModalState({
@@ -48,6 +48,12 @@ function Header(headerProps: HeaderPropsType) {
         background: "transparent",
         border: "none",
         gap: 0,
+        width: "100%",
+        position: { xs: "fixed", md: "relative" },
+        padding: "20px",
+        boxSizing: "border-box",
+        top: 0,
+        left: 0,
       }}
     >
       <Stack direction="row" spacing={2}>
@@ -55,13 +61,14 @@ function Header(headerProps: HeaderPropsType) {
           level="body-sm"
           style={{ marginTop: "7px" }}
           sx={{
-            color: "#fff",
+            color: { xs: "#fff", md: "#0C365A" },
             block: "inline-block",
           }}
         >
           Account Balance
         </Typography>
         <img
+          className="header-logo"
           style={{ width: "min-content", marginLeft: "auto" }}
           src={HeaderLogo}
           alt="header"
@@ -86,12 +93,15 @@ function Header(headerProps: HeaderPropsType) {
           style={{ marginLeft: "5px" }}
           sx={{
             fontSize: "24px",
-            color: "#fff",
+            color: { xs: "#fff", md: "#0C365A" },
           }}
         >
           3000
         </Typography>
-        <Button style={{ marginLeft: "auto" }}>
+        <Button
+          style={{ marginLeft: "auto" }}
+          sx={{ backgroundColor: { xs: "transparent", md: "#325BAF" } }}
+        >
           <img
             style={{
               width: "min-content",
@@ -104,7 +114,7 @@ function Header(headerProps: HeaderPropsType) {
           <Typography
             level="title-sm"
             sx={{
-              color: "#23CEFD",
+              color: { xs: "#23CEFD", md: "#fff" },
               block: "inline-block",
               textTransform: "none",
             }}
