@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "aspire-app-lite",
   "version": "0.1.0",
-  "homepage": "https://akthakur4744.github.io/fe-payment-lite",
+  "homepage": "https://akthakur4744.github.io/aspire-app-lite",
   "private": true,
   "author": "akthakur4744@gmail.com <Akshay Kumar>",
   "dependencies": {
