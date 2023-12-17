@@ -25,9 +25,9 @@ function CardOptions(cardOptionsProps: CardOptionsPropsType) {
   const { activeCard, updateCardsList, updateModalState } = cardOptionsProps;
   const [isDelteCardModalOpen, setIsDeleteCardModalOpen] = useState(false);
 
-  const toggleDeleteCardModal = (() => {
+  const toggleDeleteCardModal = () => {
     setIsDeleteCardModalOpen(!isDelteCardModalOpen);
-  });
+  };
 
   const resetModal = () => {
     updateModalState({} as BasicModalProps);
@@ -85,7 +85,11 @@ function CardOptions(cardOptionsProps: CardOptionsPropsType) {
         border: "none",
         gap: 0,
         marginTop: "40px",
-        borderRadius: "10px 10px 0 0",
+        borderRadius: { xs: "10px 10px 0 0", md: "8px" },
+        width: { xs: "auto", md: "366px" },
+        // width: 366px;
+        // margin-left: 60px;
+        // border-radius: 8px;
       }}
     >
       <Stack direction="row" spacing={0}>

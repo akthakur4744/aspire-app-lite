@@ -50,16 +50,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
   }, [isMasked, cvv, cvvSectionText, number]);
 
   return (
-    <div
-      style={{
-        width: "91vw",
-        position: "relative",
-        paddingTop: "30px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className="card-container">
       {!isFrozen && (
         <div
           onClick={() => setIsMasked(!isMasked)}
@@ -167,6 +158,7 @@ export default function BankCard(bankCardProps: BankCardPropsType) {
             fontSize: 16,
             paddingRight: 10,
           }}
+          className="frozen-text"
         >
           Your card is Frozen. Please unfreeze from options below to use it.
         </div>
